@@ -1,8 +1,20 @@
 {
 	"components": {
 	    "x-550136-incident-list-filtered": {
-	        "innerComponents": []
-	    }
+			"innerComponents": [
+				"now-dropdown",
+				"now-modal",
+				"now-loader",
+				"now-template-card-assist",
+				"now-icon"
+			  ],
+			"uiBuilder": {
+				"label": "Incidents with filter",
+				"icon" : "filter-outline",
+				"description" : "List of incidents with filtering option",
+				"associatedTypes": ["global.core"]
+			}
+		}
 	},
 	"scopeName": "x_550136_test_in_3"
 }

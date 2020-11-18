@@ -1,1 +1,1 @@
-import './x-550136-incident-list-filtered';
+import './incident-list-filter';
